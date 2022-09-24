@@ -1,0 +1,29 @@
+name: life
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  queen:
+    git:
+      url: https://github.com/FlutterQueen/queen.git
+      ref: 19ac2497cec159d6c62bb2fe82123dc688693228
+  google_fonts: ^3.0.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+
+
